@@ -243,8 +243,7 @@ def parse_terminal_output(raw_output: str) -> tuple[str, str]:
     
     # print(f"{input_command=}")
     # print(f"{first_token=}")
-    print(f"{cleaned_output=}")
-    print(f"{output_header=}")
+    
     pattern = re.compile(r'1;(\w+)\s+(.+?)(?=%|$)')
     match = pattern.search(cleaned_output)
     
@@ -339,7 +338,6 @@ def main():
                                         handle_ai_query(history, prompt, old_tty)
                                     else:
                                         add_to_history(command)
-                                        print(f"Add to history: {command=}")
                                     # _ = input("press any key to continue")
                                     
                                     last_command = None

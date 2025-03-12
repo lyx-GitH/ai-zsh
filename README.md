@@ -23,7 +23,7 @@ when you need ai help, just type `ai <your question>` and press enter.
 
 ai can read your command history and output, so it can help you write code, execute commands, and more.
 
-![usage](./images/usage.png)
+![usage](./image/usage.png)
 
 ## Limitations
 

@@ -21,6 +21,8 @@ Use it like a normal terminal, but with AI help.
 
 when you need ai help, just type `ai <your question>` and press enter.
 
+ai can read your command history and output, so it can help you write code, execute commands, and more.
+
 ## Limitations
 
 right now AI cannot directly execute commands, it will only return the command that you can copy and paste into your terminal.
